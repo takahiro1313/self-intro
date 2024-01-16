@@ -1,0 +1,63 @@
+ .navbar{
+  background-color: #313030 !important;
+ }
+
+ .navbar .nav-link {
+  color: #fff !important;
+}
+
+.dropdown-item:hover{
+  background-color: rgb(190, 239, 239);
+}
+
+.btn:hover{
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.4;
+}
+
+  .carousel-inner {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .col-md-4{
+    background-size: cover; /* 画像の全部を収めることができる。 */
+  }
+
+.image-me{
+  background-size: cover;
+}
+
+  .col-img {
+    background-image: url(Image-kouyou.jpg);
+    background-position: center;
+    background-size: cover; /* 画像の全部を収めることができる。 */
+    min-height: 300px;
+  }
+
+  .container-footer {
+    background-color: #313030 !important;
+    text-align: center;
+  }
+
+  .list-unstyled{
+    color: #fff !important;
+  }
+  
